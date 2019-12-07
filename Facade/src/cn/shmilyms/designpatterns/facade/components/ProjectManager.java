@@ -6,11 +6,18 @@ public class ProjectManager {
 	private Accountant ac = new Accountant();
 	private TestEngineer te = new TestEngineer();
 	
-	public void work() {
+	public void workProject() {
+		System.out.println("PM working on project.");
 		fe.workFrontEnd();
 		be.workBackEnd();
 		ac.workFinance();
 		te.workTest();
-		System.out.println("PM working.");
+
+	}
+	
+	public void workAudit() {
+		System.out.println("PM working on financials.");
+		ac.workFinance();
+
 	}
 }

@@ -13,6 +13,11 @@ public class Client {
 	
 	public void demand() {
 		if (pm!=null)
-			pm.work();
+			pm.workProject();
+	}
+	
+	public void audit() {
+		if (pm!=null)
+			pm.workAudit();
 	}
 }
