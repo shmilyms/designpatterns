@@ -12,12 +12,10 @@ public class ProjectManager {
 		be.workBackEnd();
 		ac.workFinance();
 		te.workTest();
-
 	}
 	
 	public void workAudit() {
 		System.out.println("PM working on financials.");
 		ac.workFinance();
-
 	}
 }
